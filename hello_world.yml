@@ -2,7 +2,7 @@
   hosts: all
   tasks:
     - name: Hello Message
-      debug:
+      debugx:
         msg: "Hello World!"
 
     - name: send a message to chat in playbook
