@@ -2,11 +2,5 @@
   hosts: all
   tasks:
     - name: Hello Message
-      debugx:
+      debug:
         msg: "Hello World!"
-
-    - name: send a message to chat in playbook
-      telegram:
-        token: '1290312690:AAEWtOGu3O6pjy9o-_WOwHAKF2ER1WA6_Y8'
-        chat_id: 101791843
-        msg: Ansible task finished
